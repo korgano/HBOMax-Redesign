@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("../HBOMax-Redesign/fonts/Gilroy-Light.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../HBOMax-Redesign/fonts/Gilroy-ExtraBold.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html * {
+    font-family: Gilroy;
+}
+
+/* Universal Options Page settings */
+badge.bg-secondary.Options {
+    padding: 0.25em;
+}
+/* end Universal Options Page settings */
+
+/* Profile Pic Page Settings */
+.card.noBorder {
+    border: none !important;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+img.profilePic {
+    border-radius: 50%;
+    border: 2px solid #555;
+}
+
+img.profilePic:hover {
+    border: 5px solid #D99BFF;
+}
+
+img.profilePic:focus {
+    border: 5px solid #D99BFF;
+}
+
+/* end Profile Pic Page Settings */
