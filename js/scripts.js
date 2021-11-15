@@ -1,11 +1,11 @@
 //auto close modals//
 
-$('.modal-dialog').modal('show');
-console.log('Modal Shown');
+//$('.modal-dialog').modal('show');
+//console.log('Modal Shown');
 
 setTimeout(function() {
 console.log('Countdown Start');
-    $('.modal-dialog').modal('hide');
+    $('#profileModal').modal('hide');
 }, 5000);
 console.log('Countdown End');
 
