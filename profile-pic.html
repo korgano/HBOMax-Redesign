@@ -8,7 +8,9 @@
     <title>Set Profile Picture - HBO Max</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
 </head>
 <body>
     <div class="d-flex" id="wrapper">
@@ -116,7 +118,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6 btnContainer"><button type="button" class="btn btn-primary btnOptions">Save</button>
+        <div class="col-6 btnContainer"><button type="button" class="btn btn-primary btnOptions" data-bs-toggle="modal" data-bs-target="#profileModal">Save</button>
         </div>
         <div class="col-6 btnContainer"><button type="button" class="btn btn-outline-secondary btnOptions">Reset</button>
         </div>
@@ -126,5 +128,21 @@
 
         </div>
     </div>
+
+<!-- Vertically Centered Modal -->
+<div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="Profile Picture Updated" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content optionsModal">
+        <div class="modal-body">
+            <img src="./images/profilepics/superman-cavil.png" alt="Superman (Henry Cavil)" class="profilePic">
+            <h3>Howard</h3>
+            <h4>Profile Updated</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Vertically Centered Modal -->
+  
+    
 </body>
 </html>

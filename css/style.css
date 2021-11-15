@@ -40,7 +40,6 @@ badge.bg-secondary.Options {
 #sidebar-wrapper {
     min-height: 100vh;
     margin-left: -15rem;
-    transition: margin 0.25s ease-out;
     background: transparent !important;
 }
   
@@ -59,7 +58,7 @@ badge.bg-secondary.Options {
 }
   
 #page-content-wrapper {
-    min-width: 100vw;
+    min-width: 98vw;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -81,6 +80,18 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
 .btnOptions:hover {
     font-weight: bold;
+}
+
+.optionsModal {
+    text-align: center;
+    font-size: larger;
+    width: 80vw;
+    padding-left: 5em;
+    padding-right: 5em;
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(88,34,180,1) 70%, rgba(153,30,235,1) 100%);
+    color: white;
+    border: none !important;
 }
 
 /* end Universal Options Page settings */

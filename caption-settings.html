@@ -156,7 +156,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6 btnContainer"><button type="button" class="btn btn-primary btnOptions">Save</button>
+        <div class="col-6 btnContainer"><button type="button" class="btn btn-primary btnOptions"  data-bs-toggle="modal" data-bs-target="#captionModal">Save</button>
         </div>
         <div class="col-6 btnContainer"><button type="button" class="btn btn-outline-secondary btnOptions">Reset</button>
         </div>
@@ -166,5 +166,43 @@
 
         </div>
     </div>
+
+    <!-- Vertically Centered Modal -->
+<div class="modal fade" id="captionModal" tabindex="-1" aria-labelledby="Caption Settings Updated" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content optionsModal">
+        <div class="modal-body">
+            <h2>Caption Settings Saved</h2>
+            <div class="card-body modalCard">
+                <h3 class="card-title">Your Choices</h5>
+                <h4 class="card-subtitle mb-2 text-muted">Your captioning experience</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="english" id="flexCheckChecked" checked>
+                    <label class="form-check-label"for="flexCheckChecked">
+                      English
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="retain-captions" id="flexCheckChecked" checked>
+                    <label class="form-check-label"for="flexCheckChecked">
+                      Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="translucent" id="flexCheckChecked" checked>
+                    <div class="Translucent">
+                        Aa
+                    </div>
+                    <label class="form-check-label"for="flexCheckChecked">
+                      Translucent
+                    </label>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Vertically Centered Modal -->
+  
 </body>
 </html>
