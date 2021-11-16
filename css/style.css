@@ -206,6 +206,30 @@ img.profilePic:focus {
     body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
       margin-left: -15rem;
     }
-}
 
+}
 /* end Media queries for Profile pics */
+    /* Static Landing Page */
+    body.Static
+{
+margin: 0;
+padding: 0;
+position: absolute;
+top: -500px;
+  right: -500px;
+  bottom: -500px;
+  left: -500px;
+background: url(../images/tvnoise.jpeg);
+animation: animate .5s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0 0;
+    }
+    100%
+    {
+        background-position: 100% 100%;
+    }
+}
