@@ -1,0 +1,211 @@
+
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../HBOMax-Redesign/fonts/Gilroy-Light.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../HBOMax-Redesign/fonts/Gilroy-ExtraBold.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Universal settings */
+html * {
+    font-family: Gilroy;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(88,34,180,1) 70%, rgba(153,30,235,1) 100%);
+}
+
+.btn-outline-secondary {
+    border: 3px solid;
+}
+
+/* end Universal settings */
+
+/* Universal Options Page settings */
+badge.bg-secondary.Options {
+    padding: 0.25em;
+}
+
+#wrapper {
+    overflow-x: hidden;
+}
+  
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    background: transparent !important;
+}
+  
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+  
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+.list-group-item.list-group-item-action.list-group-item-light.p-3 {
+    background: transparent;
+    color: #E5E5E5 !important;
+}
+  
+#page-content-wrapper {
+    min-width: 98vw;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+  
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: 0;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+.btnOptions {
+    width: 50%;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnOptions:hover {
+    font-weight: bold;
+}
+
+.optionsModal {
+    text-align: center;
+    font-size: larger;
+    width: 80vw;
+    padding-left: 5em;
+    padding-right: 5em;
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(88,34,180,1) 70%, rgba(153,30,235,1) 100%);
+    color: white;
+    border: none !important;
+}
+
+.sidebar-heading.border-bottom.bg-dark
+{
+    background-color: transparent !important;
+    color: white;
+}
+
+.activeOpts {
+    font-weight: bold;
+}
+
+.optHeader {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* end Universal Options Page settings */
+
+/* Profile Pic Page Settings */
+.card.noBorder {
+    border: none !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: transparent !important;
+}
+
+img.profilePic {
+    border-radius: 50%;
+    border: 2px solid #E5E5E5;
+}
+
+img.profilePic:hover {
+    border: 5px solid #D99BFF;
+}
+
+img.profilePic:focus {
+    border: 5px solid #D99BFF;
+}
+
+/* end Profile Pic Page Settings */
+
+/* Caption Settings Page Settings */
+.captionSettings{
+    margin-bottom: 2em !important;
+    font-size: large;
+}
+
+.h-100 {
+    color: white;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    background-color: rgba(88, 34, 180, 0.33);
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+.textLarge {
+    text-align: right;
+    font-size: xx-large;
+}
+
+.Solid {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+    background: black;
+    width: max-content;
+    height: max-content;
+    display: inline;
+    margin-right: 0.25em;
+}
+.Translucent {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: max-content;
+    height: max-content;
+    display: inline;
+    margin-right: 0.25em;
+}
+.Transparent {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+    background: transparent;
+    border: 2px solid black;
+    width: max-content;
+    height: max-content;
+    display: inline;
+    margin-right: 0.25em;
+}
+/* end Caption Settings Page Settings */
+
+/* Media queries for Profile Pics */
+@media (min-width: 1000px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+}
+
+/* end Media queries for Profile pics */
