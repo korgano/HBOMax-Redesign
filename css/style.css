@@ -47,6 +47,8 @@ body {
 /* Universal Options Page settings */
 badge.bg-secondary.Options {
     padding: 0.25em;
+    font-weight: bold;
+    color: white;
 }
 
 #wrapper {
@@ -220,6 +222,15 @@ img.profilePic:focus {
     body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
       margin-left: -15rem;
     }
+}
+
+@media  (min-width: 360px) {
+    .optionsModal {
+        width: 96vw;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
 }
 
 /* end Media queries for Profile pics */
