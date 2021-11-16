@@ -7,6 +7,10 @@ setTimeout(function() {
 console.log('Countdown Start');
     $('#profileModal').modal('hide');
 }, 5000);
-console.log('Countdown End');
+
+setTimeout(function() {
+    console.log('Countdown Start');
+        $('#captionModal').modal('hide');
+    }, 5000);
 
 //end auto close modals//
