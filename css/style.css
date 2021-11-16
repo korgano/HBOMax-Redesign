@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: Gilroy;
     src: url("../HBOMax-Redesign/fonts/Gilroy-Light.otf") format('opentype');
@@ -92,6 +94,22 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(88,34,180,1) 70%, rgba(153,30,235,1) 100%);
     color: white;
     border: none !important;
+}
+
+.sidebar-heading.border-bottom.bg-dark
+{
+    background-color: transparent !important;
+    color: white;
+}
+
+.activeOpts {
+    font-weight: bold;
+}
+
+.optHeader {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 /* end Universal Options Page settings */

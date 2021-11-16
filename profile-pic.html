@@ -16,9 +16,9 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light">Options</div>
+            <div class="sidebar-heading border-bottom bg-dark">Options</div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3 active" href="profile-pic.html">Profile Pictures</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 active activeOpts" href="profile-pic.html">Profile Pictures</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="caption-settings.html">Caption Settings</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Recommendation Settings</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Manage Favorites</a>
@@ -30,28 +30,36 @@
             
             <!-- Main Body -->
 <div class="container-fluid">
-    <div class="row mx-auto">
-    <h1>
-        <badge class="bg-secondary Options">
-            Profile Pictures
-        </badge>
-    </h1>
+    <div class="row justify-content-center">
+        <div class="col-8 optHeader">
+            <badge class="bg-secondary Options h1">
+                Profile Pictures
+            </badge> 
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-8 optHeader">
+                <nav aria-label="Profile Picture Categories">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">Featured</a></li>
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+
+        
     </div>
     
-    <nav aria-label="Profile Picture Categories">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">Featured</a></li>
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+
+    
 
     <div class="row">
         <div class="col-6 col-sm-4 col-md-2">
@@ -134,7 +142,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content optionsModal">
         <div class="modal-body">
-            <img src="./images/profilepics/superman-cavil.png" alt="Superman (Henry Cavil)" class="profilePic">
+            <img src="./images/profilepics/superman-cavil.png" alt="Superman (Henry Cavil)" class="profilePic img-fluid">
             <h3>Howard</h3>
             <h4>Profile Updated</h4>
         </div>
