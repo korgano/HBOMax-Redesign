@@ -259,3 +259,37 @@ animation: animate .5s linear infinite;
 }
 
 /* end Media queries for Profile pics */
+
+/* Collections Page */
+/* Top Navbar*/
+.topNav{
+    background: none !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link{
+    color: whitesmoke !important;
+    font-weight: bolder;
+}
+/* End Top Navbar */
+
+/* Movies Navbar */
+.movieNav{
+    background: none !important;
+}
+/* End Movies Navbar */
+
+/* Page Header */
+.collectionsHeader{
+    color: whitesmoke;
+    font-weight: 900;
+    text-align: center;
+}
+/* End Page Header */
+/* End Collections Page */
